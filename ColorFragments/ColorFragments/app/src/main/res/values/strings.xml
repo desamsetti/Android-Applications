@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ColorFragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gold_string">Gold</string>
+    <string name="blue_string">Blue</string>
+    <string name="plum_string">Plum</string>
+
+    <string name="gold_descrip">Gold is associated with sunshine and knowledge</string>
+    <string name="blue_descrip">Blue is the color of peace and trust</string>
+    <string name="plum_descrip">Plum is a deep purple color. It is used in weddings.</string>
+
+    <string name="back_string">Go Back</string>
+</resources>

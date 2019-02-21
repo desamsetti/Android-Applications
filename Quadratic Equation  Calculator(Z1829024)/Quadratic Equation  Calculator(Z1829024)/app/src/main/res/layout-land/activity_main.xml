@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.niu.cs.z1829024.quadraticequationcalculator.MainActivity">
+
+    <EditText
+        android:id="@+id/aEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/a"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/bEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/aEditText"
+        android:layout_alignBottom="@+id/aEditText"
+        android:layout_toEndOf="@+id/aEditText"
+        android:layout_toRightOf="@+id/aEditText"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/b"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/cEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bEditText"
+        android:layout_alignBottom="@+id/bEditText"
+        android:layout_toEndOf="@+id/bEditText"
+        android:layout_toRightOf="@+id/bEditText"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/c"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/aEditText"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="25dp"
+        android:elevation="0dp"
+        android:text="@string/Calculate" />
+
+    <TextView
+        android:id="@+id/root1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/calculateButton"
+        android:layout_alignLeft="@+id/root2TextView"
+        android:layout_alignStart="@+id/root2TextView"
+        android:text="@string/Root1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/root2TextView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="@string/Clear" />
+
+    <TextView
+        android:id="@+id/root2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/root1TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/Root2"
+        android:textSize="24sp" />
+</RelativeLayout>

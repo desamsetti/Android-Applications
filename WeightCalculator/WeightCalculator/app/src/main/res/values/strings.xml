@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shipping Calculator</string>
+    <string name="title">Weight of the Package</string>
+    <string name="ounces">(in ounces)</string>
+    <string name="base_cost">Base Cost</string>
+    <string name="added_cost">Added Cost</string>
+    <string name="total_shipping_cost">Total Shipping Cost</string>
+    <string name="zero_dollar">$0.00</string>
+
+</resources>

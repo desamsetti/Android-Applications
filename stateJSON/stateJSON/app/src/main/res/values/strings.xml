@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">stateJSON</string>
+    <string name="button_label">Get Data</string>
+    <string name="web_url">http://faculty.cs.niu.edu/~byrnes/android/json.php</string>
+</resources>

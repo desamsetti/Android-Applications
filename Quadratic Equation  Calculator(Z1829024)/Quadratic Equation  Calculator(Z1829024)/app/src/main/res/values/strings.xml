@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuadraticEquationCalculator</string>
+    <string name="a">a value</string>
+    <string name="b">b value</string>
+    <string name="c">c value</string>
+    <string name="Calculate">Calculate</string>
+    <string name="Output">Output</string>
+    <string name="Clear">Clear</string>
+    <string name="Root1">Root 1</string>
+    <string name="Root2">Root 2</string>
+</resources>

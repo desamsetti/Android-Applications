@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.cs.niu.z1829024.hawaii.SplashActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/hawaii"
+        android:gravity="bottom|center"
+        android:text="Sounds of Hawaii"
+        android:textAlignment="center"
+        android:textColor="#964B00"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

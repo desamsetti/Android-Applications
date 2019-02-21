@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LifeCycle</string>
+    <string name="goto2ndactivity">GO TO SECOND ACTIVITY</string>
+</resources>
