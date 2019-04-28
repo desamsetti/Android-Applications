@@ -5,5 +5,5 @@ game and CS240 Grade Calculator along with the CS240 Quiz in it.
 
 
 <img src="https://github.com/desamsetti/desamsetti.github.io/blob/master/img/androidMainApplication.gif?raw=true"
-     alt="Markdown Monster icon"
+     alt="Android Project"
      style="float: left; margin-right: 10px;" />
